@@ -21,7 +21,7 @@ class CarController {
                 throw err;
             }
           
-          res.attachment('todos.csv');
+          res.attachment('cars.csv');
         res.set('Content-Type', 'application/octet-stream');
         res.send(csv)
             
